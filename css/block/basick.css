@@ -1,0 +1,78 @@
+:root {
+    --bg-color-het: #0097A9;
+    --red: #D20014; 
+  }
+
+
+
+/* @font-face{
+    font-family: 'Avenir Next';
+    src: url('/font/new-folder/AvenirNextLTPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Avenir Next';
+    src: url('/font/new-folder/AvenirNextLTPro-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Avenir Next';
+    src: url('/font/new-folder/AvenirNextLTPro-It.otf');
+    font-weight: normal;
+    font-style: italic;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.position-rl {
+    position: relative;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+/* кантейнер с затемнением*/
+.wrap-blackout {
+    height: 100%;
+    width: 100%;
+    background-color: #00000052;
+}
+/* центрирование по высоте кантейнера затемнение */
+.wrap-blackout_height-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    font-family: 'Avenir Next', "Roboto", Tahoma, Verdana, sans-serif;
+}
+/* Создания модификатора */
+[class$="_het"] { 
+    background-color: var(--bg-color-het) !important;
+    color: white !important;
+}
+
+

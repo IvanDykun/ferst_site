@@ -1,0 +1,116 @@
+header {
+    background-color: var(--red);
+    height: 59px;
+    position: relative;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+}
+.header__items > a {
+    display: inline-block;
+    padding: 15px 0;
+    color: white;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    flex: 1 1 660px;
+}
+.basket {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.gr-ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    gap: 60px;
+}
+.header__number {
+    position: absolute;
+    top: -13px;
+    right: -6px;
+    background-color: white;
+    padding: 4px 7px;
+    border-radius: 50%;
+    color: var(--red);
+    font-size: 9px;
+}
+.priv a {
+    padding: 10px;
+    display: block;
+    color: black;
+}
+.priv a.go-out {
+    color: var(--red);
+}
+.notebook {
+    width: 250px;
+    right: 0;
+}
+.note a {
+    color: black;
+}
+.win-fall > ul {
+    background-color: white;
+    padding: 10px;
+    list-style-type: none;
+}
+.win-fall {
+    padding-top: 0;
+    position: absolute;
+    top: 60px;
+    transition: 1s;
+    overflow: hidden;
+    height: 0;
+    z-index: 100;
+}
+.header__items:hover .win-fall {
+    height: 300px;
+    overflow: auto;
+    padding-top: 11px;
+}
+.win-fall::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 0; 
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 11px solid white;
+    z-index: 110;
+}
+.plus_minus {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-top: 10px;
+    padding: 10px;
+}
+.trash {
+    color: #B3B3B3;
+}
+.header__items.header__items_wrap2 {
+    position: relative;
+}
+.win-fall.notebook::before {
+    right: 30px;
+    left: auto;
+}
+.mobail__menu {
+    display: none;
+}

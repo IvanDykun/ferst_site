@@ -1,0 +1,24 @@
+/* // Устройства X-Large ( 1200 пикселей и ниже) */
+@media (max-width: 1200px) { 
+    header {
+        height: auto;
+    }
+    .header__container {
+        flex-direction: column;
+        gap: 9px;
+    }
+    .container-header {
+        flex: 1 1 auto;
+        flex-direction: column;
+    }
+    .basket {
+        justify-content: center;
+    }
+    .all__news {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .line {
+        border: none;
+    }
+ }

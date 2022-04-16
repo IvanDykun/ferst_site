@@ -1,0 +1,16 @@
+/* // Устройства xx-large (больше 1400 пикселей)
+// Нет медиа-запроса для `xx-large`, так как это значение по умолчанию в Bootstrap */
+@import "/css/media/x-large.css";
+@import "/css/media/large.css";
+@import "/css/media/medium.css";
+@import "/css/media/small.css";
+@import "/css/media/xs.css";
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+.top-banner__item {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.top-banner__content p {
+    color: white;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    font-family: "Avenir Next";
+    font-weight: bold;
+    width: calc(100% - 220px);
+    margin: auto;
+}
+.products__item.item {
+    padding: 8px 15px 15px;
+    flex: 0 1 250px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+.products__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item h3 {
+    flex: 1 0 20px;
+}
+.item .item__tag {
+    background-color: var(--red);
+    position: absolute;
+    right: 0;
+    padding-top: 2.5px;
+    top: 0;
+    color: white;
+    font-size: 12px;
+    height: 17.5px;
+    width: 50px;
+    text-align: center;
+}
+.products__h2 {
+    margin: 45px 0;
+}
+.item__img {
+    text-align: center;
+    margin-bottom: 26px;
+}
+.bu {
+    background-color: var(--red);
+    color: white;
+}
+.text {
+    font-size: 10px;
+}
+.item__tag-p {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+.tag__p {
+    font-weight:900;
+}
+.ball {
+    display: flex;
+    justify-content: space-between;
+}
+.ball span {
+    font-size: 16px;
+    font-weight: 500;
+}
+.ball span:first-of-type {
+    padding-top: 7px;
+}
+.item__counter {
+    width: 30px;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid;
+    margin: 0 5px;
+    font-size: 16px;
+    padding: 5px;
+}
+.item__counter::-webkit-outer-spin-button,
+.item__counter::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.item h3,
+.item__description,
+.item .ball {
+    margin-bottom: 5px;
+}
+.products__item button {
+    font-size: 20px;
+    border: 1px solid var(--red);
+    font-size: 15px;
+    padding: 5px 24px;
+}
+.iten__description {
+    line-height: 1.55;
+    padding-bottom: 18px;
+}
+.item__icon {
+    height: 30px;
+}
+.slick-next:before {
+    content: url(/imeges/right-arrow.svg);
+}
+.slick-prev:before {
+    content: url(/imeges/left-arrow.svg);
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+.posm__h4 {
+    text-align: center;
+    margin: 55px 135px 28px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 130%;
+    padding: 45px 100px 0;
+}
+.posm {
+    background-color: #F5F5F5;
+    padding-bottom: 44px;
+    margin: 0 auto;
+}
+.abour_the_store {
+    display: flex;
+    justify-content: space-around;  
+}
+.abour_the_store-text {
+    font-size: 16px;
+    padding-right: 43px;
+    line-height: 1.5;
+}
+.store__photo {
+    margin-top: 5px;
+}
+.store__p {
+    padding-bottom: 16px;
+}

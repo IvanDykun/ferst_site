@@ -1,0 +1,36 @@
+.footer__ing {
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #969696;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 34px 84px 101px 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+.footer__information {
+    max-width: 240px;
+    padding-left: 71px;
+}
+.footer__data p {
+    color: white;
+    max-width: 285px;
+}
+.small__rockwool {
+    padding-top: 24px;
+}
+.footer__nu_ad {
+    padding-top: 18px;
+}
+.footer__last {
+    color: #969696;
+}
+.footer__all {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
